@@ -6,7 +6,6 @@ st.text_input('First Name')
 st.text_input('Middle Name')
 st.number_input('Pick your age', 0, 100)
 st.radio('Pick your gender', ['Male', 'Female'])
-st.subheader("Are you student?")
-st.checkbox('Yes')
-st.checkbox('No')
+st.radio('Are you student?', ['Yes', 'No'])
+
 
